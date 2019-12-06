@@ -1,6 +1,8 @@
 // Font
 @import url('https://fonts.googleapis.com/css?family=Lora:400|Open+Sans:400,700');
-
+;
+//Tailwind
+// @import "tailwindcss/base";
 // Bootstrap
 @import 'bootstrap/functions';
 @import 'bootstrap-variables';
@@ -43,6 +45,7 @@
 @import 'libraries/hamburgers/hamburgers';
 
 // Components
+@import 'components/pagination';
 @import 'components/page';
 @import 'components/header';
 @import 'components/footer';
@@ -52,7 +55,6 @@
 @import 'components/main-menu-mobile';
 @import 'components/social';
 @import 'components/hamburger';
-@import 'components/buttons';
 @import 'components/title';
 @import 'components/content';
 @import 'components/intro';
@@ -61,7 +63,19 @@
 @import 'components/feature';
 @import 'components/call';
 @import 'components/card';
-@import 'components/card-two';
+@import 'components/globals';
+@import 'components/custom';
+@import 'components/core';
+@import 'components/components';
+@import 'components/buttons';
+@import 'components/unify-components';
+@import 'components/unify-core';
+@import 'components/unify-globals';
+@import 'components/animate';
+@import 'components/jquery-ui.min';
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css");
+
 
 // Pages
 @import 'pages/home';

@@ -14,6 +14,10 @@ module.exports = {
         link: '/services',
       },
       {
+        name: 'Quiz',
+        link: '/quiz',
+      },
+      {
         name: 'Team',
         link: '/team',
       },
@@ -25,6 +29,22 @@ module.exports = {
         name: 'Contact',
         link: '/contact',
       },
+      {
+        name: 'EnSavoirPlus',
+        link: '/ensavoirplus',
+      },
+      {
+        name: 'DetailedArticle',
+        link: '/detailedarticle',
+      },
+      {
+        name: 'ComprendreVosOptions',
+        link: '/comprendrevosoptions',
+      },
+      {
+        name: 'MaximiserVosOptions',
+        link: '/maximiservosoptions',
+      },
     ],
   },
   plugins: [
@@ -32,6 +52,7 @@ module.exports = {
     'gatsby-transformer-json',
     'gatsby-transformer-remark',
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-postcss',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -56,7 +77,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: guid ? guid : 'UA-XXX-1',
+        trackingId: guid || 'UA-XXX-1',
         // Puts tracking script in the head instead of the body
         head: false,
       },

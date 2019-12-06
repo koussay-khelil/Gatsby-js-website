@@ -1,0 +1,108 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    header .bg-right{
+        background: url("../images/mobile-up-corner-right.png") !important;
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+        background-position: right top !important;
+        height: calc(100vw/1.6) !important;
+    }
+
+    header .bg-left .container-fluid{
+        width: 60% !important;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*Header */
+    header .bg-right{
+        background: url("../images/bg-right.png") !important;
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+        background-position: right top !important;
+    }
+
+    header .bg-left .container-fluid{
+        width: 60% !important;
+    }
+
+    .btn-quiz{
+        display: table !important;
+        width: 100%;
+        table-layout: fixed;
+    }
+    /*End Header */
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*Header */
+    header .bg-right{
+        background: url("../images/bg-right.png") !important;
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+        background-position: right top !important;
+        height: calc(100vw/10.8);
+    }
+
+    header .bg-left .container-fluid{
+        width: 60% !important;
+    }
+    /*End Header */
+
+    /*Footer */
+    footer .bg-footer{
+        height: 100px !important;
+    }
+
+    footer a {
+        top: 46px !important;
+    }
+
+    .btn-quiz{
+        display: table !important;
+        width: 100%;
+        table-layout: fixed;
+    }
+    /*End Footer */
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    /*Header */
+    header .bg-right{
+        background: url("../images/bg-right.png") !important;
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+        background-position: right top !important;
+        height: calc(100vw/2.2) !important;
+    }
+
+    header .bg-left .container-fluid{
+        width: 60% !important;
+    }
+    /*End Header */
+
+    /*Footer */
+    footer .bg-footer{
+        height: 100px !important;
+    }
+
+    footer a {
+        top: 46px !important;
+    }
+
+    .btn-quiz{
+        display: table !important;
+        width: 100%;
+        table-layout: fixed;
+    }
+    /*End Footer */
+}
